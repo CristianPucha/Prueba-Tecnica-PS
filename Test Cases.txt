@@ -1,0 +1,72 @@
+Verificar que esten presentes los textos "¡Bienvenido!" y "Completa tus datos de registro en Kaira Digital"
+Verificar que este visible el mail
+Verificar que este presente la opción de "Cambiar cuenta" y nos lleve a la pagina para seleccionar diferentes cuentas de gmail.
+Verificar que este este visible el icono de guardado automatico.
+
+Validar que los titulos de cada bloque esten visibles y contengan el texto correcto("Nombre", "Apellido", etc).
+
+Nombre:
+Verificar que el campo de Nombre sea obligatorio(que contenga *). Que no permita el envio del formulario con este campo vacio.
+Verificar que el campo de Nombre no acepte numeros, ni caracteres especiales (excepto espacios y apostrofes). Solo debe aceptar texto. Longitud maxima que sea la definida en la userStory.
+Verificar que, al dejar el campo Nombre vacío y hacer clic en Enviar, aparezca un mensaje de error indicando que el campo es obligatorio.
+
+Apellido:
+Verificar que el campo de Apellido sea obligatorio(que contenga *). Que no permita el envio del formulario con este campo vacio.
+Verificar que el campo de Apellido no acepte numeros, ni caracteres especiales (excepto espacios y apostrofes). Solo debe aceptar texto. Longitud maxima que sea la definida en la userStory.
+Verificar que, al dejar el campo Apellido vacío y hacer clic en Enviar, aparezca un mensaje de error indicando que el campo es obligatorio.
+
+Correo Electronico:
+Verificar que el campo de Correo Eletrónico sea obligatorio(que contenga *). Que no permita el envio del formulario con este campo vacio.
+Verificar que el campo acepte un correo en formato válido, como usuario@dominio.com.
+Verificar que al ingresar un correo sin el símbolo @, el sistema muestre un mensaje de error.
+Verificar que al ingresar un correo sin el dominio (por ejemplo, usuario@), el sistema muestre un mensaje de error.
+erificar que el campo no acepte menos de 5 caracteres y mas de 254.
+
+Fecha de nacimiento:
+Verificar que el campo de fecha de nacimiento sea obligatorio y que aparezca un mensaje de error si está vacío.
+Verificar que el campo acepte solo un formato de fecha válido, como dd/mm/aaaa.
+Verificar que el campo no permita seleccionar una fecha en el futuro y muestre un mensaje de error si se intenta.
+Verificar que el campo no permita ingresar una fecha que indique que el usuario es menor de la edad mínima permitida (por ejemplo, 18 años).
+Verificar que el campo no acepte fechas inválidas, como el 31 de febrero.
+Verificar que el campo no permita ingresar letras o caracteres especiales que no sean necesarios en el formato de fecha.
+
+Idioma:
+Verificar que el campo Idioma sea obligatorio y que aparezca un mensaje de error si no se selecciona ninguna opción.
+Verificar que el campo tenga una opción por defecto, como "Selecciona un idioma" o similar, que no sea válida como elección final.
+Verificar que solo se pueda seleccionar una opción a la vez en el desplegable y no permita seleccionar múltiples opciones.
+Verificar que la lista desplegable sea accesible mediante teclado (por ejemplo, usando la tecla Tab para navegar y Enter para seleccionar).
+Verificar que el desplegable muestre todas las opciones de idioma requeridas (ej., español, inglés, francés, etc.).
+
+¿Cómo nos has conocido?
+Verificar que el usuario pueda seleccionar múltiples opciones de la lista.
+Verificar que el usuario pueda desmarcar una opción seleccionada previamente.
+Verificar que el formulario pueda enviarse sin seleccionar ninguna opción, si no es obligatorio.
+
+¿Como calificas la integración de la IA en el sector tecnológico?
+Verificar que se muestren todas las opciones de calificación requeridas (por ejemplo, de 1 a 5).
+Verificar que el usuario solo pueda seleccionar una opción de la escala y que se pinten todas las anteriores.
+Verificar que al hacer una seleccion, aparezca el texto "Borrar seleccion".
+Verificar que al presionar en Borrar seleccion, se borre lo seleccionado.
+
+Digitalización de la logística:
+Verificar que se muestren todas las opciones de calificación requeridas (por ejemplo, de 1 a 5).
+Verificar que el usuario solo pueda seleccionar una opción de la escala y que no permita seleccionar múltiples opciones a la vez.
+Verificar que el usuario pueda cambiar su selección antes de enviar el formulario, y que solo la última selección se guarde.
+Verificar que al hacer una seleccion, aparezca el texto "Borrar seleccion".
+Verificar que al presionar en Borrar seleccion, se borre lo seleccionado.
+Verificar que al presionar en Borrar seleccion, esta misma opcion desaparezca
+Verificar que tanto el texto "Innecesario" como "Imprescindible" esten presentes
+
+Desarrollo logí<s@>:
+erificar que se muestren todas las opciones de calificación requeridas (por ejemplo, de 1 a 5).
+Verificar que el usuario solo pueda seleccionar una opción de la escala y que no permita seleccionar múltiples opciones a la vez.
+Verificar que el usuario pueda cambiar su selección antes de enviar el formulario, y que solo la última selección se guarde.
+Verificar que al hacer una seleccion, aparezca el texto "Borrar seleccion".
+Verificar que al presionar en Borrar seleccion, se borre lo seleccionado.
+Verificar que al presionar en Borrar seleccion, esta misma opcion desaparezca
+Verificar que tanto el texto "Innecesario" como "Imprescindible" esten presentes
+
+
+Verificar que este visible el logo de "Kaira"
+Verificar que al clickear en "Borrar formulario", aparezca un modal y al clickear nuevamente en "Borrar formulario", se borren todos los datos completados en el formulario.
+Verificar que al clickear en el boton "Enviar", el formulario se envie correctamente.
